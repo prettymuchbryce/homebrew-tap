@@ -1,18 +1,26 @@
-# Prettymuchbryce Tap
+# Homebrew Tap
 
-## How do I install these formulae?
+## Installation
 
-`brew install prettymuchbryce/tap/<formula>`
-
-Or `brew tap prettymuchbryce/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "prettymuchbryce/tap"
-brew "<formula>"
+```bash
+brew tap prettymuchbryce/tap
 ```
 
-## Documentation
+## Available Formulas
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+| Formula | Type | Description |
+|---------|------|-------------|
+| `kaseifu` | Formula | Automatically watch and organize files using configurable rules |
+
+## Updating
+
+```bash
+brew upgrade kaseifu
+```
+
+## Uninstalling
+
+```bash
+brew uninstall kaseifu
+brew untap prettymuchbryce/tap  # optional
+```
