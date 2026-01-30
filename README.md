@@ -10,17 +10,17 @@ brew tap prettymuchbryce/tap
 
 | Formula | Type | Description |
 |---------|------|-------------|
-| `kaseifu` | Formula | Automatically watch and organize files using configurable rules |
+| `autotidy` | Formula | Automatically organize files using declarative rules |
 
 ## Updating
 
 ```bash
-brew upgrade kaseifu
+brew upgrade autotidy
 ```
 
 ## Uninstalling
 
 ```bash
-brew uninstall kaseifu
+brew uninstall autotidy
 brew untap prettymuchbryce/tap  # optional
 ```
